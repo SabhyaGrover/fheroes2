@@ -19,33 +19,44 @@
  *   Free Software Foundation, Inc.,                                       *
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
-
-#include <cmath>
 #include <algorithm>
+#include <cmath>
 #include <functional>
-#include "artifact.h"
-#include "world.h"
-#include "castle.h"
-#include "settings.h"
-#include "mp2.h"
 #include "agg.h"
-#include "speed.h"
-#include "luck.h"
-#include "race.h"
-#include "direction.h"
-#include "ground.h"
-#include "morale.h"
-#include "monster.h"
-#include "payment.h"
-#include "profit.h"
-#include "cursor.h"
-#include "kingdom.h"
+#include "ai.h"
+#include "artifact.h"
 #include "battle.h"
-#include "heroes.h"
+#include "castle.h"
+#include "cursor.h"
+#include "direction.h"
 #include "game.h"
 #include "game_interface.h"
 #include "game_static.h"
-#include "ai.h"
+#include "ground.h"
+#include "heroes.h"
+#include "kingdom.h"
+#include "luck.h"
+#include "monster.h"
+#include "morale.h"
+#include "mp2.h"
+#include "payment.h"
+#include "profit.h"
+#include "race.h"
+#include "settings.h"
+#include "speed.h"
+#include "world.h"
+
+
+
+
+
+
+
+
+
+
+
+
 
 const char* Heroes::GetName(int id)
 {
